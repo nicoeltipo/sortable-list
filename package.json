@@ -1,0 +1,17 @@
+{
+  "name": "sortable-list",
+  "version": "1.0.0",
+  "description": "Simple sortable list",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Nicolas Vallejo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.7",
+    "path": "^0.12.7"
+  }
+}

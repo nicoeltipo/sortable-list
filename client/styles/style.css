@@ -1,0 +1,39 @@
+body {
+  padding-top: 3rem;
+}
+.list-img {
+  width: 48px;
+  height: 48px;
+  padding: 0.4em;
+}
+.list-img-large {
+  width: 320px;
+  height: 320px;
+  padding: 0.4em;
+}
+#sortableList {
+  list-style-type: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 90%;
+}
+#sortableList li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1em;
+}
+.canvasOverlay {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  border: solid 1px rgba(84, 88, 125, 0.9);
+  pointer-events: none;
+}
+
+.canvasContainer {
+  position: relative;
+  width: 320px;
+  height: 320px;
+}

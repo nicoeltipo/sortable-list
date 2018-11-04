@@ -1,0 +1,18 @@
+version: "2"
+services:
+  myapp:
+    build: .
+    container_name: "myapp"
+    command: "node server"
+    restart: on-failure
+    ports:
+      - 5000:5000
+    links:
+      - mongodb
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - 27017:27017
